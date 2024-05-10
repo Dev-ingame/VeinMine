@@ -1,0 +1,6 @@
+# Ignore compiled files
+*.AddCompLib
+
+# Ignore directory
+/node_modules/
+
