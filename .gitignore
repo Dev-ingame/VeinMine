@@ -3,4 +3,6 @@
 
 # Ignore directory
 /node_modules/
+/.vscode/
+
 

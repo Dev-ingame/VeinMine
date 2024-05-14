@@ -1,26 +1,30 @@
 {
-  "format_version": 2,
-  "header": {
-    "name": "§aVein§e§lMiner?",
-    "description": "a very simple vein miner",
-    "uuid": "0a59c681-dc65-462f-8191-7942a0b34268",
-    "version": [1, 0, 0],
-    "min_engine_version": [1, 20, 30]
-  },
-  "modules": [
-    {
-      "description": "scripts",
-      "language": "javascript",
-      "type": "script",
-      "uuid": "c4b97e0f-e1a4-41ea-b7ad-aaa645c0339d",
-      "version": [1, 0, 0],
-      "entry": "scripts/main.js"
-    }
-  ],
-  "dependencies": [
-    {
-      "module_name": "@minecraft/server",
-      "version": "1.11.0-beta"
-    }
-  ]
+    "format_version": 2,
+    "header": {
+        "name": "Mine",
+        "description": "Mine",
+        "min_engine_version": [1, 19, 60],
+        "uuid": "63120633-a832-425a-9cfe-bcaf4a69c51b",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "f70c0be1-b80b-4b91-9cea-4311189ab0a1",
+            "version": [0, 0, 1]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "4477d450-844c-41a1-81e7-b9e08057fa43",
+            "entry": "scripts/main.js",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.12.0-beta"
+        }
+    ]
 }
